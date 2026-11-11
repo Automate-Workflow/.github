@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="hdr-title hdr-desc">
+  <title id="hdr-title">Automate Workflow — Organization Header</title>
+  <desc id="hdr-desc">Crimson-themed organization header banner matching the Automate Workflow logo with workflow network artwork and focus badges.</desc>
+  <defs>
+    <linearGradient id="hdr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A0416"/>
+      <stop offset="48%" stop-color="#6B0421"/>
+      <stop offset="100%" stop-color="#8F0129"/>
+    </linearGradient>
+    <radialGradient id="hdr-glow-left" cx="14%" cy="50%" r="42%">
+      <stop offset="0%" stop-color="#B81240" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5A051C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hdr-glow-right" cx="88%" cy="42%" r="36%">
+      <stop offset="0%" stop-color="#D11D4E" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#5A051C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="emblem-radial" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#8F0129"/>
+      <stop offset="60%" stop-color="#6B0421"/>
+      <stop offset="100%" stop-color="#4A0416"/>
+    </radialGradient>
+    <linearGradient id="accent-bar" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="430" y2="0">
+      <stop offset="0%" stop-color="#F4ECEE"/>
+      <stop offset="55%" stop-color="#D11D4E"/>
+      <stop offset="100%" stop-color="#6B0421" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#F4ECEE" fill-opacity="0.08"/>
+    </pattern>
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#28010B" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Main container -->
+  <rect x="2" y="2" width="1196" height="296" rx="18" fill="url(#hdr-bg)" stroke="#A60D37" stroke-width="2"/>
+  <rect x="2" y="2" width="1196" height="296" rx="18" fill="url(#grid-dots)"/>
+  <rect x="2" y="2" width="1196" height="296" rx="18" fill="url(#hdr-glow-left)"/>
+  <rect x="2" y="2" width="1196" height="296" rx="18" fill="url(#hdr-glow-right)"/>
+
+  <!-- Top subtle crimson highlight edge -->
+  <path d="M 36 3 H 1164" stroke="#F4ECEE" stroke-opacity="0.16" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Right-side automated workflow DAG illustration -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 835 88 C 885 88, 895 62, 945 62 H 1045 C 1085 62, 1095 110, 1140 110" stroke="#F4ECEE" stroke-opacity="0.22" stroke-width="2"/>
+    <path d="M 815 152 H 935 C 975 152, 985 118, 1030 118 H 1140" stroke="#F4ECEE" stroke-opacity="0.32" stroke-width="2.2"/>
+    <path d="M 855 218 C 905 218, 915 186, 965 186 H 1055 C 1095 186, 1105 224, 1145 224" stroke="#F4ECEE" stroke-opacity="0.2" stroke-width="2"/>
+    <path d="M 945 62 L 935 152 L 965 186" stroke="#D11D4E" stroke-opacity="0.45" stroke-width="1.8" stroke-dasharray="4 5"/>
+    <path d="M 1045 62 L 1030 118 L 1055 186" stroke="#F4ECEE" stroke-opacity="0.16" stroke-width="1.6" stroke-dasharray="3 4"/>
+  </g>
+
+  <!-- Right-side workflow nodes -->
+  <g>
+    <rect x="786" y="138" width="32" height="28" rx="8" fill="#5A051C" stroke="#D11D4E" stroke-width="1.8"/>
+    <circle cx="802" cy="152" r="4.5" fill="#F4ECEE"/>
+
+    <rect x="928" y="48" width="34" height="28" rx="8" fill="#5A051C" stroke="#F4ECEE" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="945" cy="62" r="4" fill="#D8C7CC"/>
+
+    <circle cx="1030" cy="118" r="18" fill="#6B0421" stroke="#F4ECEE" stroke-opacity="0.6" stroke-width="2"/>
+    <circle cx="1030" cy="118" r="10" fill="#D11D4E"/>
+    <circle cx="1030" cy="118" r="4" fill="#F4ECEE"/>
+
+    <rect x="948" y="172" width="34" height="28" rx="8" fill="#5A051C" stroke="#F4ECEE" stroke-opacity="0.4" stroke-width="1.5"/>
+    <circle cx="965" cy="186" r="4" fill="#D8C7CC"/>
+
+    <circle cx="1140" cy="110" r="6" fill="#F4ECEE" fill-opacity="0.88"/>
+    <circle cx="1140" cy="110" r="11" fill="none" stroke="#D11D4E" stroke-opacity="0.55" stroke-width="1.5"/>
+    <circle cx="1145" cy="224" r="5" fill="#D8C7CC" fill-opacity="0.65"/>
+    <circle cx="835" cy="88" r="4.5" fill="#D11D4E"/>
+    <circle cx="855" cy="218" r="4.5" fill="#D8C7CC" fill-opacity="0.55"/>
+    <circle cx="1045" cy="62" r="4" fill="#F4ECEE" fill-opacity="0.7"/>
+    <circle cx="1055" cy="186" r="4" fill="#F4ECEE" fill-opacity="0.7"/>
+  </g>
+
+  <!-- Left official Automate Workflow emblem card -->
+  <g transform="translate(52, 62)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="176" height="176" rx="34" fill="url(#emblem-radial)" stroke="#C21849" stroke-width="2.5"/>
+    <rect x="6" y="6" width="164" height="164" rx="29" fill="none" stroke="#F4ECEE" stroke-opacity="0.14" stroke-width="1"/>
+
+    <!-- </> code motif with clean spacing above gear -->
+    <g fill="none" stroke="#F4ECEE" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="54,42 28,64 54,86"/>
+      <line x1="96" y1="28" x2="74" y2="100"/>
+      <polyline points="116,42 142,64 116,86"/>
+    </g>
+
+    <!-- Gear + circuit motif bottom right of > -->
+    <g transform="translate(144, 108)">
+      <g fill="#F4ECEE">
+        <rect x="-2.6" y="-13.5" width="5.2" height="27" rx="1.7"/>
+        <rect x="-13.5" y="-2.6" width="27" height="5.2" rx="1.7"/>
+        <rect x="-2.6" y="-13.5" width="5.2" height="27" rx="1.7" transform="rotate(45)"/>
+        <rect x="-13.5" y="-2.6" width="27" height="5.2" rx="1.7" transform="rotate(45)"/>
+        <circle cx="0" cy="0" r="10"/>
+      </g>
+      <circle cx="0" cy="0" r="7" fill="#6B0421"/>
+      <g fill="none" stroke="#F4ECEE" stroke-width="1.35" stroke-linecap="round">
+        <path d="M 0 4.2 V -3.8"/>
+        <path d="M 0 1.8 L -3.2 -1.3 V -3.2"/>
+        <path d="M 0 0.5 L 3.2 -1.8 V -3.2"/>
+      </g>
+      <circle cx="0" cy="-4.3" r="1.15" fill="#F4ECEE"/>
+      <circle cx="-3.2" cy="-3.6" r="1.05" fill="#F4ECEE"/>
+      <circle cx="3.2" cy="-3.6" r="1.05" fill="#F4ECEE"/>
+    </g>
+
+    <!-- /automation mini wordmark -->
+    <text x="88" y="148" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.3" fill="#F4ECEE">/automation</text>
+  </g>
+
+  <!-- Main Header Content -->
+  <g transform="translate(262, 0)">
+    <!-- Eyebrow pill -->
+    <rect x="0" y="54" width="332" height="26" rx="13" fill="#420313" fill-opacity="0.82" stroke="#B81D46" stroke-width="1"/>
+    <circle cx="16" cy="67" r="4" fill="#D11D4E"/>
+    <text x="28" y="71.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.4" fill="#E8D8DC">GITHUB.COM / AUTOMATE-WORKFLOW</text>
+
+    <!-- Organization Name -->
+    <text x="0" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="-0.8" fill="#FAF5F6">Automate Workflow</text>
+
+    <!-- Accent Rule (rect so horizontal gradient renders in all browsers) -->
+    <rect x="0" y="150.5" width="430" height="3" rx="1.5" fill="url(#accent-bar)"/>
+    <circle cx="442" cy="152" r="4.5" fill="#F4ECEE"/>
+
+    <!-- Value Proposition -->
+    <text x="0" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17.5" font-weight="400" fill="#F4ECEE" fill-opacity="0.92">Open-source AI agent knowledge bases, production n8n workflows,</text>
+    <text x="0" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17.5" font-weight="400" fill="#D8C7CC" fill-opacity="0.92">browser automation extensions, and curated tooling ecosystems.</text>
+
+    <!-- Domain Pills -->
+    <g transform="translate(0, 234)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">
+      <rect x="0" y="0" width="110" height="26" rx="6" fill="#500418" stroke="#A60D37" stroke-width="1"/>
+      <text x="55" y="17" text-anchor="middle" fill="#F4ECEE">AI Agents</text>
+
+      <rect x="120" y="0" width="132" height="26" rx="6" fill="#500418" stroke="#A60D37" stroke-width="1"/>
+      <text x="186" y="17" text-anchor="middle" fill="#F4ECEE">n8n Workflows</text>
+
+      <rect x="262" y="0" width="142" height="26" rx="6" fill="#500418" stroke="#A60D37" stroke-width="1"/>
+      <text x="333" y="17" text-anchor="middle" fill="#F4ECEE">Chrome AI Tools</text>
+
+      <rect x="414" y="0" width="154" height="26" rx="6" fill="#500418" stroke="#A60D37" stroke-width="1"/>
+      <text x="491" y="17" text-anchor="middle" fill="#F4ECEE">Curated Directories</text>
+    </g>
+  </g>
+</svg>

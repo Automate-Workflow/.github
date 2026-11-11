@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" role="img" aria-labelledby="ftr-title ftr-desc">
+  <title id="ftr-title">Automate Workflow — Organization Footer</title>
+  <desc id="ftr-desc">Crimson-themed SVG footer with wave horizon, circuit accent, and maintainer attribution for Ayush Raj.</desc>
+  <defs>
+    <linearGradient id="ftr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5A051C"/>
+      <stop offset="50%" stop-color="#730424"/>
+      <stop offset="100%" stop-color="#8F0129"/>
+    </linearGradient>
+    <linearGradient id="wave-highlight" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#D11D4E" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#F4ECEE" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#D11D4E" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="ftr-line" gradientUnits="userSpaceOnUse" x1="120" y1="0" x2="1080" y2="0">
+      <stop offset="0%" stop-color="#5A051C" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#D11D4E" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#F4ECEE" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#D11D4E" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5A051C" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="ftr-clip">
+      <rect x="2" y="2" width="1196" height="156" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <!-- Main footer frame -->
+  <rect x="2" y="2" width="1196" height="156" rx="18" fill="url(#ftr-bg)" stroke="#A60D37" stroke-width="2"/>
+
+  <!-- Subtle wave silhouette layers inside clip -->
+  <g clip-path="url(#ftr-clip)">
+    <path d="M 0 38 C 220 10, 420 58, 660 28 C 890 -2, 1040 44, 1200 22 L 1200 0 L 0 0 Z" fill="#420313" fill-opacity="0.55"/>
+    <path d="M 0 38 C 220 10, 420 58, 660 28 C 890 -2, 1040 44, 1200 22" fill="none" stroke="url(#wave-highlight)" stroke-width="2"/>
+    <path d="M 0 132 C 240 112, 460 148, 720 124 C 950 104, 1090 138, 1200 118 L 1200 160 L 0 160 Z" fill="#3E0211" fill-opacity="0.45"/>
+
+    <!-- Subtle decorative circuit traces positioned cleanly between left and right blocks -->
+    <g fill="none" stroke="#F4ECEE" stroke-opacity="0.16" stroke-width="1.6" stroke-linecap="round">
+      <path d="M 530 62 H 582 L 600 80 H 650"/>
+      <path d="M 552 106 H 604 L 622 88 H 662"/>
+    </g>
+    <circle cx="530" cy="62" r="3" fill="#F4ECEE" fill-opacity="0.28"/>
+    <circle cx="650" cy="80" r="3" fill="#D11D4E" fill-opacity="0.75"/>
+    <circle cx="552" cy="106" r="3" fill="#F4ECEE" fill-opacity="0.28"/>
+    <circle cx="662" cy="88" r="3.5" fill="#F4ECEE" fill-opacity="0.45"/>
+  </g>
+
+  <!-- Left brand badge -->
+  <g transform="translate(46, 52)">
+    <rect x="0" y="0" width="54" height="54" rx="13" fill="#4A0416" stroke="#C21849" stroke-width="1.8"/>
+    <g fill="none" stroke="#F4ECEE" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18,18 10,26 18,34"/>
+      <line x1="30" y1="14" x2="23" y2="38"/>
+      <polyline points="36,18 44,26 36,34"/>
+    </g>
+    <circle cx="43" cy="41" r="4.8" fill="#F4ECEE"/>
+    <circle cx="43" cy="41" r="2.1" fill="#730424"/>
+  </g>
+
+  <g transform="translate(118, 0)">
+    <text x="0" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#FAF5F6">Automate Workflow</text>
+    <text x="0" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#D8C7CC">Build · Orchestrate · Automate — Open-Source Engineering</text>
+  </g>
+
+  <!-- Right attribution card -->
+  <g transform="translate(690, 44)">
+    <rect x="0" y="0" width="464" height="72" rx="12" fill="#420313" fill-opacity="0.78" stroke="#B81D46" stroke-width="1.3"/>
+    <text x="22" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#FAF5F6">Maintained by Ayush Raj  <tspan fill="#D11D4E">·</tspan>  <tspan font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#E8D8DC">@ayushcmd</tspan></text>
+    <text x="22" y="53" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="500" fill="#D8C7CC">ayush_24a12res897@iitp.ac.in  ·  MIT &amp; CC BY 4.0</text>
+  </g>
+
+  <!-- Bottom crisp rule (rect so horizontal gradient renders cleanly) -->
+  <rect x="120" y="141" width="960" height="2" rx="1" fill="url(#ftr-line)"/>
+  <polygon points="600,136 606,142 600,148 594,142" fill="#F4ECEE" stroke="#D11D4E" stroke-width="1"/>
+</svg>
